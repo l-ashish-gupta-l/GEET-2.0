@@ -17,14 +17,14 @@ const Mainsidebar = () => {
         <div className="mainmenu  w-4/6 h-[70%] bg-white">
           <h1 className='font-bold text-[#75B1FF]'>Menu</h1>
           <ul className='mx-5 my-3  '>
-            <li className='my-5'><a href='' className='text-l'> <i class="ri-home-5-fill mr-3"></i>Home</a></li>
-            <li className='my-5'><a href='' className='text-l'> <i class="ri-heart-fill mr-3"></i>Liked</a></li>
-            <li className='my-5'><a href='' className='text-l'> <i class="ri-music-2-fill mr-3 whitespace-nowrap "></i>Create Playlist</a></li>
+            <li className='my-5'><a href='' className='text-l hover:text-[#75B1FF]'> <i class="ri-home-5-fill mr-3 "></i>Home</a></li>
+            <li className='my-5'><a href='' className='text-l hover:text-[#75B1FF]'> <i class="ri-heart-fill mr-3"></i>Liked</a></li>
+            <li className='my-5'><a href='' className='text-l hover:text-[#75B1FF]'> <i class="ri-music-2-fill mr-3 whitespace-nowrap "></i>Create Playlist</a></li>
           </ul>
           <h1 className='font-bold text-[#75B1FF]'>My Library</h1>
           <ul className='mx-5 my-3  '>
-            
-            <li className='my-5'><a href='' className='text-l'> <i class="ri-play-list-add-fill font-bold mr-3"></i>Recent Playlist</a></li>
+
+            <li className='my-5'><a href='' className='text-l hover:text-[#75B1FF]'> <i class="ri-play-list-add-fill font-bold mr-3"></i>Recent Playlist</a></li>
           </ul>
         </div>
       </div>
